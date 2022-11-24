@@ -1,0 +1,61 @@
+2022.11.24 18:45:47 INFO  tracing is disabled for protocol LSP, to enable tracing of incoming and outgoing JSON messages create an empty file at d:\Sunway\Sem 8\Distributed Systems\group assignment\blackjack\.metals\lsp.trace.json or C:\Users\acer\AppData\Local\scalameta\metals\cache\lsp.trace.json
+2022.11.24 18:45:56 INFO  logging to file D:\Sunway\Sem 8\Distributed Systems\group assignment\blackjack\.metals\metals.log
+2022.11.24 18:45:56 INFO  Started: Metals version 0.11.9 in workspace 'D:\Sunway\Sem 8\Distributed Systems\group assignment\blackjack' for client Visual Studio Code 1.73.1.
+2022.11.24 18:46:05 INFO  time: initialize in 9.72s
+2022.11.24 18:46:13 WARN  Build server is not auto-connectable.
+2022.11.24 18:46:13 WARN  no build target for: D:\Sunway\Sem 8\Distributed Systems\group assignment\blackjack\build.sbt
+2022.11.24 18:46:40 INFO  no build target found for D:\Sunway\Sem 8\Distributed Systems\group assignment\blackjack\build.sbt. Using presentation compiler with project's scala-library version: 3.2.0
+2022.11.24 18:46:53 INFO  time: code lens generation in 37s
+2022.11.24 18:46:53 INFO  time: code lens generation in 6.62s
+2022.11.24 18:47:41 INFO  shutting down Metals
+2022.11.24 18:47:42 ERROR Unexpected error initializing serverorg.eclipse.lsp4j.jsonrpc.ResponseErrorException: Request window/showMessageRequest failed with message: Canceled
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleResponse(RemoteEndpoint.java:209)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:193)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:194)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:94)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:113)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+	at java.lang.Thread.run(Thread.java:832)
+
+2022.11.24 18:56:14 INFO  tracing is disabled for protocol LSP, to enable tracing of incoming and outgoing JSON messages create an empty file at d:\Sunway\Sem 8\Distributed Systems\group assignment\blackjack\.metals\lsp.trace.json or C:\Users\acer\AppData\Local\scalameta\metals\cache\lsp.trace.json
+2022.11.24 18:56:24 INFO  logging to file D:\Sunway\Sem 8\Distributed Systems\group assignment\blackjack\.metals\metals.log
+2022.11.24 18:56:24 INFO  Started: Metals version 0.11.9 in workspace 'D:\Sunway\Sem 8\Distributed Systems\group assignment\blackjack' for client Visual Studio Code 1.73.1.
+2022.11.24 18:56:44 INFO  time: initialize in 20s
+2022.11.24 18:57:05 WARN  Build server is not auto-connectable.
+2022.11.24 18:57:05 WARN  no build target for: D:\Sunway\Sem 8\Distributed Systems\group assignment\blackjack\build.sbt
+2022.11.24 18:57:19 INFO  no build target found for D:\Sunway\Sem 8\Distributed Systems\group assignment\blackjack\build.sbt. Using presentation compiler with project's scala-library version: 3.2.0
+2022.11.24 18:57:25 INFO  time: code lens generation in 22s
+Nov 24, 2022 8:10:00 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: empty.reduceRight
+java.lang.UnsupportedOperationException: empty.reduceRight
+	at scala.collection.IterableOnceOps.reduceRight(IterableOnce.scala:791)
+	at scala.collection.IterableOnceOps.reduceRight$(IterableOnce.scala:786)
+	at scala.collection.AbstractIterable.reduceRight(Iterable.scala:933)
+	at scala.meta.internal.pc.SelectionRangeProvider.$anonfun$1(SelectionRangeProvider.scala:53)
+	at scala.collection.immutable.List.map(List.scala:246)
+	at scala.meta.internal.pc.SelectionRangeProvider.selectionRange(SelectionRangeProvider.scala:53)
+
+2022.11.24 20:10:13 WARN  no build target for: D:\Sunway\Sem 8\Distributed Systems\group assignment\blackjack\build.sbt
+2022.11.24 20:38:08 WARN  no build target for: D:\Sunway\Sem 8\Distributed Systems\group assignment\blackjack\src\main\scala\protocol\Standard.scala
+2022.11.24 20:38:14 WARN  no build target for: D:\Sunway\Sem 8\Distributed Systems\group assignment\blackjack\src\main\scala\protocol\Standard.scala
+2022.11.24 20:39:31 WARN  no build target for: D:\Sunway\Sem 8\Distributed Systems\group assignment\blackjack\src\main\scala\view\BlackjackTableController.scala
+2022.11.24 20:39:52 WARN  no build target for: D:\Sunway\Sem 8\Distributed Systems\group assignment\blackjack\src\main\scala\view\GameLobbyController.scala
+2022.11.24 20:40:16 WARN  no build target for: D:\Sunway\Sem 8\Distributed Systems\group assignment\blackjack\src\main\scala\view\MenuController.scala
+2022.11.24 20:41:20 WARN  no build target for: D:\Sunway\Sem 8\Distributed Systems\group assignment\blackjack\src\main\scala\view\BlackjackTableController.scala
+2022.11.24 20:41:56 WARN  no build target for: D:\Sunway\Sem 8\Distributed Systems\group assignment\blackjack\src\main\scala\model\Card.scala
+2022.11.24 20:42:03 WARN  no build target for: D:\Sunway\Sem 8\Distributed Systems\group assignment\blackjack\src\main\scala\model\Card.scala
+2022.11.24 20:45:11 WARN  no build target for: D:\Sunway\Sem 8\Distributed Systems\group assignment\blackjack\src\main\scala\model\Card.scala
+2022.11.24 20:45:25 WARN  no build target for: D:\Sunway\Sem 8\Distributed Systems\group assignment\blackjack\src\main\scala\protocol\Standard.scala
+2022.11.24 20:53:02 WARN  no build target for: D:\Sunway\Sem 8\Distributed Systems\group assignment\blackjack\src\main\scala\network\Client.scala
+2022.11.24 20:53:12 WARN  no build target for: D:\Sunway\Sem 8\Distributed Systems\group assignment\blackjack\src\main\scala\network\GameClient.scala
+2022.11.24 20:53:19 WARN  no build target for: D:\Sunway\Sem 8\Distributed Systems\group assignment\blackjack\src\main\scala\network\GameClient.scala
+2022.11.24 20:53:25 WARN  no build target for: D:\Sunway\Sem 8\Distributed Systems\group assignment\blackjack\src\main\scala\view\MenuController.scala
+2022.11.24 20:55:39 WARN  no build target for: D:\Sunway\Sem 8\Distributed Systems\group assignment\blackjack\src\main\scala\view\MenuController.scala
+Nov 24, 2022 8:55:48 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 272
+2022.11.24 20:55:48 WARN  no build target for: D:\Sunway\Sem 8\Distributed Systems\group assignment\blackjack\src\main\scala\view\MenuController.scala
+2022.11.24 21:05:17 WARN  no build target for: D:\Sunway\Sem 8\Distributed Systems\group assignment\blackjack\src\main\scala\model\Card.scala
+2022.11.24 21:05:27 WARN  no build target for: D:\Sunway\Sem 8\Distributed Systems\group assignment\blackjack\src\main\scala\model\PokerCard.scala
