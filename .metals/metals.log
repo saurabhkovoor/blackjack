@@ -59,3 +59,475 @@ WARNING: Unmatched cancel notification for request id 272
 2022.11.24 20:55:48 WARN  no build target for: D:\Sunway\Sem 8\Distributed Systems\group assignment\blackjack\src\main\scala\view\MenuController.scala
 2022.11.24 21:05:17 WARN  no build target for: D:\Sunway\Sem 8\Distributed Systems\group assignment\blackjack\src\main\scala\model\Card.scala
 2022.11.24 21:05:27 WARN  no build target for: D:\Sunway\Sem 8\Distributed Systems\group assignment\blackjack\src\main\scala\model\PokerCard.scala
+Nov 24, 2022 10:33:13 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 697
+Nov 24, 2022 10:33:13 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 698
+Nov 24, 2022 10:33:13 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 699
+2022.11.24 22:33:38 WARN  no build target for: D:\Sunway\Sem 8\Distributed Systems\group assignment\blackjack\src\main\scala\model\PokerCard.scala
+2022.11.24 22:33:54 WARN  no build target for: D:\Sunway\Sem 8\Distributed Systems\group assignment\blackjack\src\main\scala\model\PokerCard.scala
+2022.11.24 22:33:55 WARN  no build target for: D:\Sunway\Sem 8\Distributed Systems\group assignment\blackjack\src\main\scala\model\PokerCard.scala
+2022.11.24 22:34:07 WARN  no build target for: D:\Sunway\Sem 8\Distributed Systems\group assignment\blackjack\src\main\scala\model\PokerCard.scala
+2022.11.24 22:34:15 WARN  no build target for: D:\Sunway\Sem 8\Distributed Systems\group assignment\blackjack\src\main\scala\model\PokerCard.scala
+2022.11.24 22:43:05 WARN  no build target for: D:\Sunway\Sem 8\Distributed Systems\group assignment\blackjack\src\main\scala\model\HouseDealer.scala
+2022.11.24 22:43:17 WARN  no build target for: D:\Sunway\Sem 8\Distributed Systems\group assignment\blackjack\src\main\scala\model\PokerCard.scala
+Exception in thread "pool-3-thread-1" java.lang.InterruptedException
+	at scala.meta.internal.metals.FutureCancelToken.checkCanceled(FutureCancelToken.scala:29)
+	at scala.meta.internal.pc.CompilerAccess.onCompilerJobQueue$$anonfun$1(CompilerAccess.scala:195)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:152)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+	at java.base/java.lang.Thread.run(Thread.java:832)
+2022.11.24 22:43:30 WARN  no build target for: D:\Sunway\Sem 8\Distributed Systems\group assignment\blackjack\src\main\scala\model\HouseDealer.scala
+2022.11.24 22:43:43 WARN  no build target for: D:\Sunway\Sem 8\Distributed Systems\group assignment\blackjack\src\main\scala\model\HouseDealer.scala
+2022.11.24 22:48:57 WARN  no build target for: D:\Sunway\Sem 8\Distributed Systems\group assignment\blackjack\src\main\scala\model\HouseDealer.scala
+Nov 24, 2022 10:48:57 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 982
+2022.11.24 22:49:01 INFO  time: code lens generation in 1.24s
+2022.11.24 22:49:16 WARN  no build target for: D:\Sunway\Sem 8\Distributed Systems\group assignment\blackjack\src\main\scala\model\HouseDealer.scala
+2022.11.24 22:49:29 WARN  no build target for: D:\Sunway\Sem 8\Distributed Systems\group assignment\blackjack\src\main\scala\model\HouseDealer.scala
+2022.11.24 22:49:32 WARN  no build target for: D:\Sunway\Sem 8\Distributed Systems\group assignment\blackjack\src\main\scala\model\HouseDealer.scala
+2022.11.24 22:49:49 WARN  no build target for: D:\Sunway\Sem 8\Distributed Systems\group assignment\blackjack\src\main\scala\model\PokerCard.scala
+2022.11.24 22:50:08 WARN  no build target for: D:\Sunway\Sem 8\Distributed Systems\group assignment\blackjack\src\main\scala\model\HouseDealer.scala
+2022.11.24 22:50:09 WARN  no build target for: D:\Sunway\Sem 8\Distributed Systems\group assignment\blackjack\src\main\scala\model\HouseDealer.scala
+2022.11.24 22:50:10 WARN  no build target for: D:\Sunway\Sem 8\Distributed Systems\group assignment\blackjack\src\main\scala\model\HouseDealer.scala
+2022.11.24 22:50:22 WARN  no build target for: D:\Sunway\Sem 8\Distributed Systems\group assignment\blackjack\src\main\scala\model\HouseDealer.scala
+Nov 24, 2022 10:50:37 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1185
+Nov 24, 2022 10:51:28 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1268
+Nov 24, 2022 10:51:30 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1275
+2022.11.24 22:51:30 WARN  no build target for: D:\Sunway\Sem 8\Distributed Systems\group assignment\blackjack\src\main\scala\model\HouseDealer.scala
+2022.11.24 22:51:43 WARN  no build target for: D:\Sunway\Sem 8\Distributed Systems\group assignment\blackjack\src\main\scala\model\HouseDealer.scala
+2022.11.24 22:51:45 WARN  no build target for: D:\Sunway\Sem 8\Distributed Systems\group assignment\blackjack\src\main\scala\model\HouseDealer.scala
+2022.11.24 22:51:45 WARN  no build target for: D:\Sunway\Sem 8\Distributed Systems\group assignment\blackjack\src\main\scala\model\HouseDealer.scala
+2022.11.24 22:52:34 WARN  no build target for: D:\Sunway\Sem 8\Distributed Systems\group assignment\blackjack\src\main\scala\model\HouseDealer.scala
+2022.11.24 22:52:34 WARN  no build target for: D:\Sunway\Sem 8\Distributed Systems\group assignment\blackjack\src\main\scala\model\HouseDealer.scala
+Nov 24, 2022 10:52:34 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1350
+2022.11.24 22:52:34 WARN  no build target for: D:\Sunway\Sem 8\Distributed Systems\group assignment\blackjack\src\main\scala\model\HouseDealer.scala
+Nov 24, 2022 10:52:40 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1366
+Exception in thread "pool-3-thread-2" java.lang.InterruptedException
+	at scala.meta.internal.metals.FutureCancelToken.checkCanceled(FutureCancelToken.scala:29)
+	at scala.meta.internal.pc.CompilerAccess.onCompilerJobQueue$$anonfun$1(CompilerAccess.scala:195)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:152)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+	at java.base/java.lang.Thread.run(Thread.java:832)
+Nov 24, 2022 10:52:41 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1371
+2022.11.24 22:52:42 WARN  no build target for: D:\Sunway\Sem 8\Distributed Systems\group assignment\blackjack\src\main\scala\model\HouseDealer.scala
+2022.11.24 22:52:51 WARN  no build target for: D:\Sunway\Sem 8\Distributed Systems\group assignment\blackjack\src\main\scala\model\HouseDealer.scala
+2022.11.24 22:55:13 WARN  no build target for: D:\Sunway\Sem 8\Distributed Systems\group assignment\blackjack\src\main\scala\model\HouseDealer.scala
+Exception in thread "pool-3-thread-3" java.lang.InterruptedException
+	at scala.meta.internal.metals.FutureCancelToken.checkCanceled(FutureCancelToken.scala:29)
+	at scala.meta.internal.pc.CompilerAccess.onCompilerJobQueue$$anonfun$1(CompilerAccess.scala:195)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:152)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+	at java.base/java.lang.Thread.run(Thread.java:832)
+Nov 24, 2022 10:55:16 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1452
+Nov 24, 2022 10:55:17 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1454
+Nov 24, 2022 10:55:17 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1456
+2022.11.24 22:55:19 WARN  no build target for: D:\Sunway\Sem 8\Distributed Systems\group assignment\blackjack\src\main\scala\model\HouseDealer.scala
+2022.11.24 22:55:34 WARN  no build target for: D:\Sunway\Sem 8\Distributed Systems\group assignment\blackjack\src\main\scala\model\HouseDealer.scala
+Nov 24, 2022 10:56:39 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1706
+2022.11.24 22:57:16 WARN  no build target for: D:\Sunway\Sem 8\Distributed Systems\group assignment\blackjack\src\main\scala\model\HouseDealer.scala
+2022.11.24 22:57:47 WARN  no build target for: D:\Sunway\Sem 8\Distributed Systems\group assignment\blackjack\src\main\scala\model\HouseDealer.scala
+2022.11.24 22:58:10 WARN  no build target for: D:\Sunway\Sem 8\Distributed Systems\group assignment\blackjack\src\main\scala\model\HouseDealer.scala
+2022.11.24 22:58:32 WARN  no build target for: D:\Sunway\Sem 8\Distributed Systems\group assignment\blackjack\src\main\scala\model\HouseDealer.scala
+2022.11.24 22:58:48 WARN  no build target for: D:\Sunway\Sem 8\Distributed Systems\group assignment\blackjack\src\main\scala\model\HouseDealer.scala
+2022.11.24 23:00:10 WARN  no build target for: D:\Sunway\Sem 8\Distributed Systems\group assignment\blackjack\src\main\scala\model\HouseDealer.scala
+2022.11.24 23:00:32 WARN  no build target for: D:\Sunway\Sem 8\Distributed Systems\group assignment\blackjack\src\main\scala\model\HouseDealer.scala
+2022.11.24 23:26:24 WARN  no build target for: D:\Sunway\Sem 8\Distributed Systems\group assignment\blackjack\src\main\scala\model\HouseDealer.scala
+2022.11.24 23:26:24 WARN  no build target for: D:\Sunway\Sem 8\Distributed Systems\group assignment\blackjack\src\main\scala\model\HouseDealer.scala
+Exception in thread "pool-3-thread-4" java.lang.InterruptedException
+	at scala.meta.internal.metals.FutureCancelToken.checkCanceled(FutureCancelToken.scala:29)
+	at scala.meta.internal.pc.CompilerAccess.onCompilerJobQueue$$anonfun$1(CompilerAccess.scala:195)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:152)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+	at java.base/java.lang.Thread.run(Thread.java:832)
+Nov 24, 2022 11:26:27 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2164
+2022.11.24 23:26:28 WARN  no build target for: D:\Sunway\Sem 8\Distributed Systems\group assignment\blackjack\src\main\scala\model\HouseDealer.scala
+2022.11.24 23:26:28 WARN  no build target for: D:\Sunway\Sem 8\Distributed Systems\group assignment\blackjack\src\main\scala\model\HouseDealer.scala
+2022.11.24 23:26:28 WARN  no build target for: D:\Sunway\Sem 8\Distributed Systems\group assignment\blackjack\src\main\scala\model\HouseDealer.scala
+2022.11.24 23:26:28 WARN  no build target for: D:\Sunway\Sem 8\Distributed Systems\group assignment\blackjack\src\main\scala\model\HouseDealer.scala
+2022.11.24 23:26:28 WARN  no build target for: D:\Sunway\Sem 8\Distributed Systems\group assignment\blackjack\src\main\scala\model\HouseDealer.scala
+Nov 24, 2022 11:26:29 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: NoDenotation.owner
+java.lang.AssertionError: NoDenotation.owner
+	at dotty.tools.dotc.core.SymDenotations$NoDenotation$.owner(SymDenotations.scala:2499)
+	at scala.meta.internal.pc.PcDocumentHighlightProvider$.isForComprehensionOwner$1(PcDocumentHighlightProvider.scala:163)
+	at scala.meta.internal.pc.PcDocumentHighlightProvider$.collectNames$1(PcDocumentHighlightProvider.scala:178)
+	at scala.meta.internal.pc.PcDocumentHighlightProvider$.$anonfun$4(PcDocumentHighlightProvider.scala:275)
+	at dotty.tools.dotc.ast.Trees$Instance$DeepFolder.apply(Trees.scala:1669)
+	at dotty.tools.dotc.ast.Trees$Instance$TreeAccumulator.fold$1(Trees.scala:1535)
+	at dotty.tools.dotc.ast.Trees$Instance$TreeAccumulator.apply(Trees.scala:1537)
+	at dotty.tools.dotc.ast.Trees$Instance$TreeAccumulator.foldOver(Trees.scala:1554)
+	at dotty.tools.dotc.ast.Trees$Instance$DeepFolder.apply(Trees.scala:1669)
+	at dotty.tools.dotc.ast.Trees$Instance$TreeAccumulator.fold$1(Trees.scala:1535)
+	at dotty.tools.dotc.ast.Trees$Instance$TreeAccumulator.apply(Trees.scala:1537)
+	at dotty.tools.dotc.ast.Trees$Instance$TreeAccumulator.foldOver(Trees.scala:1568)
+	at dotty.tools.dotc.ast.Trees$Instance$DeepFolder.apply(Trees.scala:1669)
+	at dotty.tools.dotc.ast.Trees$Instance$TreeAccumulator.foldOver(Trees.scala:1568)
+	at dotty.tools.dotc.ast.Trees$Instance$DeepFolder.apply(Trees.scala:1669)
+	at dotty.tools.dotc.ast.Trees$Instance$TreeAccumulator.foldOver(Trees.scala:1623)
+	at dotty.tools.dotc.ast.Trees$Instance$DeepFolder.apply(Trees.scala:1669)
+	at dotty.tools.dotc.ast.Trees$Instance$TreeAccumulator.fold$1(Trees.scala:1535)
+	at dotty.tools.dotc.ast.Trees$Instance$TreeAccumulator.apply(Trees.scala:1537)
+	at dotty.tools.dotc.ast.Trees$Instance$TreeAccumulator.foldOver(Trees.scala:1630)
+	at dotty.tools.dotc.ast.Trees$Instance$DeepFolder.apply(Trees.scala:1669)
+	at dotty.tools.dotc.ast.Trees$Instance$TreeAccumulator.foldOver(Trees.scala:1627)
+	at dotty.tools.dotc.ast.Trees$Instance$DeepFolder.apply(Trees.scala:1669)
+	at dotty.tools.dotc.ast.Trees$Instance$TreeAccumulator.fold$1(Trees.scala:1535)
+	at dotty.tools.dotc.ast.Trees$Instance$TreeAccumulator.apply(Trees.scala:1537)
+	at dotty.tools.dotc.ast.Trees$Instance$TreeAccumulator.foldOver(Trees.scala:1636)
+	at dotty.tools.dotc.ast.Trees$Instance$TreeAccumulator.foldOver(Trees.scala:1541)
+	at dotty.tools.dotc.ast.Trees$Instance$DeepFolder.apply(Trees.scala:1669)
+	at scala.meta.internal.pc.PcDocumentHighlightProvider$.highlights(PcDocumentHighlightProvider.scala:276)
+
+Nov 24, 2022 11:27:00 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2292
+2022.11.24 23:27:11 WARN  no build target for: D:\Sunway\Sem 8\Distributed Systems\group assignment\blackjack\src\main\scala\model\HouseDealer.scala
+2022.11.24 23:27:15 WARN  no build target for: D:\Sunway\Sem 8\Distributed Systems\group assignment\blackjack\src\main\scala\model\HouseDealer.scala
+2022.11.24 23:27:18 WARN  no build target for: D:\Sunway\Sem 8\Distributed Systems\group assignment\blackjack\src\main\scala\model\HouseDealer.scala
+2022.11.24 23:27:43 WARN  no build target for: D:\Sunway\Sem 8\Distributed Systems\group assignment\blackjack\src\main\scala\model\HouseDealer.scala
+Nov 24, 2022 11:27:43 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2413
+Exception in thread "pool-3-thread-5" java.lang.InterruptedException
+	at scala.meta.internal.metals.FutureCancelToken.checkCanceled(FutureCancelToken.scala:29)
+	at scala.meta.internal.pc.CompilerAccess.onCompilerJobQueue$$anonfun$1(CompilerAccess.scala:195)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:152)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+	at java.base/java.lang.Thread.run(Thread.java:832)
+2022.11.24 23:28:00 WARN  no build target for: D:\Sunway\Sem 8\Distributed Systems\group assignment\blackjack\src\main\scala\model\HouseDealer.scala
+2022.11.24 23:31:25 WARN  no build target for: D:\Sunway\Sem 8\Distributed Systems\group assignment\blackjack\src\main\scala\model\PokerCard.scala
+2022.11.24 23:31:25 WARN  no build target for: D:\Sunway\Sem 8\Distributed Systems\group assignment\blackjack\src\main\scala\model\PokerCard.scala
+2022.11.24 23:31:27 WARN  no build target for: D:\Sunway\Sem 8\Distributed Systems\group assignment\blackjack\src\main\scala\model\PokerCard.scala
+2022.11.24 23:31:43 WARN  no build target for: D:\Sunway\Sem 8\Distributed Systems\group assignment\blackjack\src\main\scala\model\User.scala
+2022.11.24 23:31:48 WARN  no build target for: D:\Sunway\Sem 8\Distributed Systems\group assignment\blackjack\src\main\scala\model\User.scala
+2022.11.24 23:31:52 WARN  no build target for: D:\Sunway\Sem 8\Distributed Systems\group assignment\blackjack\src\main\scala\model\User.scala
+2022.11.24 23:31:54 WARN  no build target for: D:\Sunway\Sem 8\Distributed Systems\group assignment\blackjack\src\main\scala\model\User.scala
+2022.11.24 23:31:54 WARN  no build target for: D:\Sunway\Sem 8\Distributed Systems\group assignment\blackjack\src\main\scala\model\User.scala
+2022.11.24 23:32:17 WARN  no build target for: D:\Sunway\Sem 8\Distributed Systems\group assignment\blackjack\src\main\scala\model\User.scala
+2022.11.24 23:32:52 WARN  no build target for: D:\Sunway\Sem 8\Distributed Systems\group assignment\blackjack\src\main\scala\model\User.scala
+2022.11.24 23:33:24 WARN  no build target for: D:\Sunway\Sem 8\Distributed Systems\group assignment\blackjack\src\main\scala\model\Player.scala
+2022.11.24 23:33:33 WARN  no build target for: D:\Sunway\Sem 8\Distributed Systems\group assignment\blackjack\src\main\scala\model\Player.scala
+2022.11.24 23:33:52 WARN  no build target for: D:\Sunway\Sem 8\Distributed Systems\group assignment\blackjack\src\main\scala\model\HouseDealer.scala
+2022.11.24 23:33:59 WARN  no build target for: D:\Sunway\Sem 8\Distributed Systems\group assignment\blackjack\src\main\scala\model\Player.scala
+2022.11.24 23:34:06 WARN  no build target for: D:\Sunway\Sem 8\Distributed Systems\group assignment\blackjack\src\main\scala\model\PokerCard.scala
+2022.11.24 23:34:13 WARN  no build target for: D:\Sunway\Sem 8\Distributed Systems\group assignment\blackjack\src\main\scala\model\Player.scala
+2022.11.24 23:35:38 WARN  no build target for: D:\Sunway\Sem 8\Distributed Systems\group assignment\blackjack\src\main\scala\model\Player.scala
+2022.11.24 23:35:40 WARN  no build target for: D:\Sunway\Sem 8\Distributed Systems\group assignment\blackjack\src\main\scala\model\Player.scala
+2022.11.24 23:35:45 WARN  no build target for: D:\Sunway\Sem 8\Distributed Systems\group assignment\blackjack\src\main\scala\model\Player.scala
+2022.11.24 23:35:53 WARN  no build target for: D:\Sunway\Sem 8\Distributed Systems\group assignment\blackjack\src\main\scala\model\Player.scala
+Nov 24, 2022 11:37:13 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2857
+2022.11.24 23:37:16 WARN  no build target for: D:\Sunway\Sem 8\Distributed Systems\group assignment\blackjack\src\main\scala\model\Player.scala
+Nov 24, 2022 11:37:28 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2927
+2022.11.24 23:37:36 WARN  no build target for: D:\Sunway\Sem 8\Distributed Systems\group assignment\blackjack\src\main\scala\model\Player.scala
+2022.11.24 23:37:44 WARN  no build target for: D:\Sunway\Sem 8\Distributed Systems\group assignment\blackjack\src\main\scala\model\HouseDealer.scala
+Nov 24, 2022 11:37:44 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2973
+Nov 24, 2022 11:37:46 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2975
+Exception in thread "pool-3-thread-6" java.lang.InterruptedException
+	at scala.meta.internal.metals.FutureCancelToken.checkCanceled(FutureCancelToken.scala:29)
+	at scala.meta.internal.pc.CompilerAccess.onCompilerJobQueue$$anonfun$1(CompilerAccess.scala:195)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:152)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+	at java.base/java.lang.Thread.run(Thread.java:832)
+2022.11.24 23:38:30 WARN  no build target for: D:\Sunway\Sem 8\Distributed Systems\group assignment\blackjack\src\main\scala\model\Player.scala
+2022.11.24 23:38:57 WARN  no build target for: D:\Sunway\Sem 8\Distributed Systems\group assignment\blackjack\src\main\scala\model\HouseDealer.scala
+2022.11.24 23:39:03 WARN  no build target for: D:\Sunway\Sem 8\Distributed Systems\group assignment\blackjack\src\main\scala\model\HouseDealer.scala
+2022.11.24 23:39:05 WARN  no build target for: D:\Sunway\Sem 8\Distributed Systems\group assignment\blackjack\src\main\scala\model\Player.scala
+2022.11.24 23:39:12 WARN  no build target for: D:\Sunway\Sem 8\Distributed Systems\group assignment\blackjack\src\main\scala\model\Player.scala
+Nov 24, 2022 11:39:16 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 3108
+2022.11.24 23:39:38 WARN  no build target for: D:\Sunway\Sem 8\Distributed Systems\group assignment\blackjack\src\main\scala\model\HouseDealer.scala
+Exception in thread "pool-3-thread-7" java.lang.InterruptedException
+	at scala.meta.internal.metals.FutureCancelToken.checkCanceled(FutureCancelToken.scala:29)
+	at scala.meta.internal.pc.CompilerAccess.onCompilerJobQueue$$anonfun$1(CompilerAccess.scala:195)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:152)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+	at java.base/java.lang.Thread.run(Thread.java:832)
+2022.11.24 23:39:48 WARN  no build target for: D:\Sunway\Sem 8\Distributed Systems\group assignment\blackjack\src\main\scala\model\HouseDealer.scala
+Nov 24, 2022 11:39:59 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 3233
+Nov 24, 2022 11:40:03 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 3247
+2022.11.24 23:40:06 WARN  no build target for: D:\Sunway\Sem 8\Distributed Systems\group assignment\blackjack\src\main\scala\model\Player.scala
+2022.11.24 23:40:07 WARN  no build target for: D:\Sunway\Sem 8\Distributed Systems\group assignment\blackjack\src\main\scala\model\Player.scala
+2022.11.24 23:40:09 WARN  no build target for: D:\Sunway\Sem 8\Distributed Systems\group assignment\blackjack\src\main\scala\model\Player.scala
+2022.11.24 23:40:37 WARN  no build target for: D:\Sunway\Sem 8\Distributed Systems\group assignment\blackjack\src\main\scala\model\Player.scala
+Exception in thread "pool-3-thread-8" java.lang.InterruptedException
+	at scala.meta.internal.metals.FutureCancelToken.checkCanceled(FutureCancelToken.scala:29)
+	at scala.meta.internal.pc.CompilerAccess.onCompilerJobQueue$$anonfun$1(CompilerAccess.scala:195)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:152)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+	at java.base/java.lang.Thread.run(Thread.java:832)
+2022.11.24 23:41:14 WARN  no build target for: D:\Sunway\Sem 8\Distributed Systems\group assignment\blackjack\src\main\scala\model\Player.scala
+2022.11.24 23:41:17 WARN  no build target for: D:\Sunway\Sem 8\Distributed Systems\group assignment\blackjack\src\main\scala\model\Player.scala
+2022.11.24 23:41:24 WARN  no build target for: D:\Sunway\Sem 8\Distributed Systems\group assignment\blackjack\src\main\scala\model\Player.scala
+2022.11.24 23:41:24 WARN  no build target for: D:\Sunway\Sem 8\Distributed Systems\group assignment\blackjack\src\main\scala\model\Player.scala
+2022.11.24 23:41:24 WARN  no build target for: D:\Sunway\Sem 8\Distributed Systems\group assignment\blackjack\src\main\scala\model\Player.scala
+2022.11.24 23:41:28 WARN  no build target for: D:\Sunway\Sem 8\Distributed Systems\group assignment\blackjack\src\main\scala\model\Player.scala
+2022.11.24 23:41:47 WARN  no build target for: D:\Sunway\Sem 8\Distributed Systems\group assignment\blackjack\src\main\scala\model\Player.scala
+Exception in thread "pool-3-thread-9" java.lang.InterruptedException
+	at scala.meta.internal.metals.FutureCancelToken.checkCanceled(FutureCancelToken.scala:29)
+	at scala.meta.internal.pc.CompilerAccess.onCompilerJobQueue$$anonfun$1(CompilerAccess.scala:195)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:152)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+	at java.base/java.lang.Thread.run(Thread.java:832)
+2022.11.24 23:42:42 WARN  no build target for: D:\Sunway\Sem 8\Distributed Systems\group assignment\blackjack\src\main\scala\model\Player.scala
+Nov 24, 2022 11:42:55 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 3596
+Nov 24, 2022 11:43:15 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 3662
+2022.11.24 23:43:23 WARN  no build target for: D:\Sunway\Sem 8\Distributed Systems\group assignment\blackjack\src\main\scala\model\Player.scala
+2022.11.24 23:44:15 WARN  no build target for: D:\Sunway\Sem 8\Distributed Systems\group assignment\blackjack\src\main\scala\model\Table.scala
+2022.11.24 23:44:22 WARN  no build target for: D:\Sunway\Sem 8\Distributed Systems\group assignment\blackjack\src\main\scala\model\Table.scala
+2022.11.24 23:44:29 WARN  no build target for: D:\Sunway\Sem 8\Distributed Systems\group assignment\blackjack\src\main\scala\model\Table.scala
+2022.11.24 23:44:34 WARN  no build target for: D:\Sunway\Sem 8\Distributed Systems\group assignment\blackjack\src\main\scala\model\Table.scala
+2022.11.24 23:44:38 WARN  no build target for: D:\Sunway\Sem 8\Distributed Systems\group assignment\blackjack\src\main\scala\model\Table.scala
+Nov 24, 2022 11:44:54 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 3805
+2022.11.24 23:50:04 WARN  no build target for: D:\Sunway\Sem 8\Distributed Systems\group assignment\blackjack\src\main\scala\model\Table.scala
+2022.11.24 23:50:05 WARN  no build target for: D:\Sunway\Sem 8\Distributed Systems\group assignment\blackjack\src\main\scala\model\Table.scala
+2022.11.24 23:50:09 WARN  no build target for: D:\Sunway\Sem 8\Distributed Systems\group assignment\blackjack\src\main\scala\model\Table.scala
+2022.11.24 23:50:23 WARN  no build target for: D:\Sunway\Sem 8\Distributed Systems\group assignment\blackjack\src\main\scala\model\Table.scala
+2022.11.24 23:55:36 WARN  no build target for: D:\Sunway\Sem 8\Distributed Systems\group assignment\blackjack\src\main\scala\model\Table.scala
+2022.11.24 23:57:09 WARN  no build target for: D:\Sunway\Sem 8\Distributed Systems\group assignment\blackjack\src\main\scala\model\Table.scala
+2022.11.25 00:12:54 WARN  no build target for: D:\Sunway\Sem 8\Distributed Systems\group assignment\blackjack\src\main\scala\model\Table.scala
+Exception in thread "pool-3-thread-10" java.lang.InterruptedException
+	at scala.meta.internal.metals.FutureCancelToken.checkCanceled(FutureCancelToken.scala:29)
+	at scala.meta.internal.pc.CompilerAccess.onCompilerJobQueue$$anonfun$1(CompilerAccess.scala:195)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:152)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+	at java.base/java.lang.Thread.run(Thread.java:832)
+2022.11.25 00:13:01 WARN  no build target for: D:\Sunway\Sem 8\Distributed Systems\group assignment\blackjack\src\main\scala\model\Table.scala
+2022.11.25 00:14:49 WARN  no build target for: D:\Sunway\Sem 8\Distributed Systems\group assignment\blackjack\src\main\scala\model\BlackjackGame.scala
+2022.11.25 01:04:51 WARN  no build target for: D:\Sunway\Sem 8\Distributed Systems\group assignment\blackjack\src\main\scala\model\BlackjackGame.scala
+2022.11.25 01:05:01 WARN  no build target for: D:\Sunway\Sem 8\Distributed Systems\group assignment\blackjack\src\main\scala\model\BlackjackGame.scala
+2022.11.25 01:07:07 WARN  no build target for: D:\Sunway\Sem 8\Distributed Systems\group assignment\blackjack\src\main\scala\model\BlackjackGame.scala
+2022.11.25 01:07:43 WARN  no build target for: D:\Sunway\Sem 8\Distributed Systems\group assignment\blackjack\src\main\scala\model\BlackjackGame.scala
+2022.11.25 01:07:47 WARN  no build target for: D:\Sunway\Sem 8\Distributed Systems\group assignment\blackjack\src\main\scala\model\BlackjackGame.scala
+2022.11.25 01:08:09 WARN  no build target for: D:\Sunway\Sem 8\Distributed Systems\group assignment\blackjack\src\main\scala\model\BlackjackGame.scala
+2022.11.25 01:27:03 WARN  no build target for: D:\Sunway\Sem 8\Distributed Systems\group assignment\blackjack\src\main\scala\model\BlackjackGame.scala
+2022.11.25 01:27:09 WARN  no build target for: D:\Sunway\Sem 8\Distributed Systems\group assignment\blackjack\src\main\scala\model\BlackjackGame.scala
+2022.11.25 01:27:27 WARN  no build target for: D:\Sunway\Sem 8\Distributed Systems\group assignment\blackjack\src\main\scala\model\BlackjackGame.scala
+2022.11.25 01:28:31 WARN  no build target for: D:\Sunway\Sem 8\Distributed Systems\group assignment\blackjack\src\main\scala\model\BlackjackGame.scala
+2022.11.25 01:28:33 WARN  no build target for: D:\Sunway\Sem 8\Distributed Systems\group assignment\blackjack\src\main\scala\model\BlackjackGame.scala
+2022.11.25 01:29:09 WARN  no build target for: D:\Sunway\Sem 8\Distributed Systems\group assignment\blackjack\src\main\scala\model\BlackjackGame.scala
+2022.11.25 01:29:15 WARN  no build target for: D:\Sunway\Sem 8\Distributed Systems\group assignment\blackjack\src\main\scala\model\BlackjackGame.scala
+2022.11.25 01:29:17 WARN  no build target for: D:\Sunway\Sem 8\Distributed Systems\group assignment\blackjack\src\main\scala\model\BlackjackGame.scala
+2022.11.25 01:32:35 WARN  no build target for: D:\Sunway\Sem 8\Distributed Systems\group assignment\blackjack\src\main\scala\model\BlackjackGame.scala
+Exception in thread "pool-3-thread-11" java.lang.InterruptedException
+	at scala.meta.internal.metals.FutureCancelToken.checkCanceled(FutureCancelToken.scala:29)
+	at scala.meta.internal.pc.CompilerAccess.onCompilerJobQueue$$anonfun$1(CompilerAccess.scala:195)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:152)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+	at java.base/java.lang.Thread.run(Thread.java:832)
+2022.11.25 01:40:17 WARN  no build target for: D:\Sunway\Sem 8\Distributed Systems\group assignment\blackjack\src\main\scala\model\BlackjackGame.scala
+2022.11.25 01:40:24 WARN  no build target for: D:\Sunway\Sem 8\Distributed Systems\group assignment\blackjack\src\main\scala\model\BlackjackGame.scala
+2022.11.25 01:43:03 WARN  no build target for: D:\Sunway\Sem 8\Distributed Systems\group assignment\blackjack\src\main\scala\model\BlackjackGame.scala
+2022.11.25 01:43:18 WARN  no build target for: D:\Sunway\Sem 8\Distributed Systems\group assignment\blackjack\src\main\scala\model\BlackjackGame.scala
+2022.11.25 01:44:01 WARN  no build target for: D:\Sunway\Sem 8\Distributed Systems\group assignment\blackjack\src\main\scala\model\Player.scala
+2022.11.25 01:44:01 WARN  no build target for: D:\Sunway\Sem 8\Distributed Systems\group assignment\blackjack\src\main\scala\model\Player.scala
+2022.11.25 01:44:04 WARN  no build target for: D:\Sunway\Sem 8\Distributed Systems\group assignment\blackjack\src\main\scala\model\BlackjackGame.scala
+2022.11.25 01:56:13 WARN  no build target for: D:\Sunway\Sem 8\Distributed Systems\group assignment\blackjack\src\main\scala\model\BlackjackGame.scala
+2022.11.25 03:06:45 WARN  no build target for: D:\Sunway\Sem 8\Distributed Systems\group assignment\blackjack\src\main\scala\model\BlackjackGame.scala
+Exception in thread "pool-3-thread-12" java.lang.InterruptedException
+	at scala.meta.internal.metals.FutureCancelToken.checkCanceled(FutureCancelToken.scala:29)
+	at scala.meta.internal.pc.CompilerAccess.onCompilerJobQueue$$anonfun$1(CompilerAccess.scala:195)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:152)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+	at java.base/java.lang.Thread.run(Thread.java:832)
+2022.11.25 12:01:43 WARN  no build target for: D:\Sunway\Sem 8\Distributed Systems\group assignment\blackjack\src\main\scala\model\BlackjackGame.scala
+Nov 25, 2022 12:02:06 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 5219
+Nov 25, 2022 12:02:06 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 5220
+Nov 25, 2022 12:02:06 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 5221
+Nov 25, 2022 12:02:06 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 5222
+Nov 25, 2022 12:02:06 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 5223
+Nov 25, 2022 12:02:06 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 5224
+Nov 25, 2022 12:02:06 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 5225
+Nov 25, 2022 12:02:06 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 5226
+Nov 25, 2022 12:02:06 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 5227
+Nov 25, 2022 12:02:06 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 5228
+Nov 25, 2022 12:02:06 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 5229
+Nov 25, 2022 12:02:06 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 5230
+Nov 25, 2022 12:02:06 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 5231
+Nov 25, 2022 12:02:06 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 5232
+Nov 25, 2022 12:02:06 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 5239
+Nov 25, 2022 12:02:06 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 5240
+Nov 25, 2022 12:02:06 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 5241
+Nov 25, 2022 12:02:06 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 5242
+Nov 25, 2022 12:02:06 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 5243
+Nov 25, 2022 12:02:06 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 5244
+Nov 25, 2022 12:02:06 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 5233
+Nov 25, 2022 12:02:06 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 5245
+Nov 25, 2022 12:02:06 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 5234
+Nov 25, 2022 12:02:06 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 5238
+Nov 25, 2022 12:02:06 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 5248
+Nov 25, 2022 12:02:06 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 5249
+2022.11.25 12:02:18 WARN  no build target for: D:\Sunway\Sem 8\Distributed Systems\group assignment\blackjack\src\main\scala\model\BlackjackGame.scala
+2022.11.25 12:04:40 WARN  no build target for: D:\Sunway\Sem 8\Distributed Systems\group assignment\blackjack\src\main\scala\model\BlackjackGame.scala
+Nov 25, 2022 12:04:40 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 5463
+Exception in thread "pool-3-thread-13" java.lang.InterruptedException
+	at scala.meta.internal.metals.FutureCancelToken.checkCanceled(FutureCancelToken.scala:29)
+	at scala.meta.internal.pc.CompilerAccess.onCompilerJobQueue$$anonfun$1(CompilerAccess.scala:195)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:152)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+	at java.base/java.lang.Thread.run(Thread.java:832)
+Exception in thread "pool-3-thread-14" java.lang.InterruptedException
+	at scala.meta.internal.metals.FutureCancelToken.checkCanceled(FutureCancelToken.scala:29)
+	at scala.meta.internal.pc.CompilerAccess.onCompilerJobQueue$$anonfun$1(CompilerAccess.scala:195)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:152)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+	at java.base/java.lang.Thread.run(Thread.java:832)
+Exception in thread "pool-3-thread-15" java.lang.InterruptedException
+	at scala.meta.internal.metals.FutureCancelToken.checkCanceled(FutureCancelToken.scala:29)
+	at scala.meta.internal.pc.CompilerAccess.onCompilerJobQueue$$anonfun$1(CompilerAccess.scala:195)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:152)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+	at java.base/java.lang.Thread.run(Thread.java:832)
+2022.11.25 12:05:05 WARN  no build target for: D:\Sunway\Sem 8\Distributed Systems\group assignment\blackjack\src\main\scala\model\Player.scala
+2022.11.25 12:05:17 WARN  no build target for: D:\Sunway\Sem 8\Distributed Systems\group assignment\blackjack\src\main\scala\model\BlackjackGame.scala
+Nov 25, 2022 12:05:28 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 5546
+Nov 25, 2022 12:05:36 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 5575
+Nov 25, 2022 12:05:43 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 5623
+Nov 25, 2022 12:06:51 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 5698
+2022.11.25 12:09:39 WARN  no build target for: D:\Sunway\Sem 8\Distributed Systems\group assignment\blackjack\src\main\scala\model\BlackjackGame.scala
+2022.11.25 12:09:41 WARN  no build target for: D:\Sunway\Sem 8\Distributed Systems\group assignment\blackjack\src\main\scala\model\BlackjackGame.scala
+2022.11.25 12:09:41 WARN  no build target for: D:\Sunway\Sem 8\Distributed Systems\group assignment\blackjack\src\main\scala\model\BlackjackGame.scala
+Nov 25, 2022 12:09:41 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 5835
+Nov 25, 2022 12:09:56 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 5870
+2022.11.25 12:10:01 WARN  no build target for: D:\Sunway\Sem 8\Distributed Systems\group assignment\blackjack\src\main\scala\model\BlackjackGame.scala
+2022.11.25 12:10:30 WARN  no build target for: D:\Sunway\Sem 8\Distributed Systems\group assignment\blackjack\src\main\scala\model\BlackjackGame.scala
+2022.11.25 12:10:44 WARN  no build target for: D:\Sunway\Sem 8\Distributed Systems\group assignment\blackjack\src\main\scala\model\BlackjackGame.scala
+2022.11.25 12:10:57 WARN  no build target for: D:\Sunway\Sem 8\Distributed Systems\group assignment\blackjack\src\main\scala\model\BlackjackGame.scala
+2022.11.25 12:10:58 WARN  no build target for: D:\Sunway\Sem 8\Distributed Systems\group assignment\blackjack\src\main\scala\model\BlackjackGame.scala
+2022.11.25 12:11:16 WARN  no build target for: D:\Sunway\Sem 8\Distributed Systems\group assignment\blackjack\src\main\scala\model\BlackjackGame.scala
+Nov 25, 2022 12:11:17 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 6145
+Nov 25, 2022 12:11:21 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 6164
+Nov 25, 2022 12:11:21 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 6168
+Nov 25, 2022 12:12:13 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 6272
+2022.11.25 12:12:15 WARN  no build target for: D:\Sunway\Sem 8\Distributed Systems\group assignment\blackjack\src\main\scala\model\BlackjackGame.scala
+2022.11.25 12:12:22 WARN  no build target for: D:\Sunway\Sem 8\Distributed Systems\group assignment\blackjack\src\main\scala\model\BlackjackGame.scala
+2022.11.25 12:12:33 WARN  no build target for: D:\Sunway\Sem 8\Distributed Systems\group assignment\blackjack\src\main\scala\model\BlackjackGame.scala
+2022.11.25 12:12:39 WARN  no build target for: D:\Sunway\Sem 8\Distributed Systems\group assignment\blackjack\src\main\scala\model\BlackjackGame.scala
+Nov 25, 2022 12:13:48 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 6354
+Exception in thread "pool-3-thread-16" java.lang.InterruptedException
+	at scala.meta.internal.metals.FutureCancelToken.checkCanceled(FutureCancelToken.scala:29)
+	at scala.meta.internal.pc.CompilerAccess.onCompilerJobQueue$$anonfun$1(CompilerAccess.scala:195)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:152)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+	at java.base/java.lang.Thread.run(Thread.java:832)
+2022.11.25 12:13:53 WARN  no build target for: D:\Sunway\Sem 8\Distributed Systems\group assignment\blackjack\src\main\scala\model\BlackjackGame.scala
+Exception in thread "pool-3-thread-17" java.lang.InterruptedException
+	at scala.meta.internal.metals.FutureCancelToken.checkCanceled(FutureCancelToken.scala:29)
+	at scala.meta.internal.pc.CompilerAccess.onCompilerJobQueue$$anonfun$1(CompilerAccess.scala:195)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:152)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+	at java.base/java.lang.Thread.run(Thread.java:832)
+2022.11.25 12:13:54 WARN  no build target for: D:\Sunway\Sem 8\Distributed Systems\group assignment\blackjack\src\main\scala\model\BlackjackGame.scala
+2022.11.25 12:14:06 WARN  no build target for: D:\Sunway\Sem 8\Distributed Systems\group assignment\blackjack\src\main\scala\model\BlackjackGame.scala
+2022.11.25 12:14:22 WARN  no build target for: D:\Sunway\Sem 8\Distributed Systems\group assignment\blackjack\src\main\scala\model\BlackjackGame.scala
+Exception in thread "pool-3-thread-18" java.lang.InterruptedException
+	at scala.meta.internal.metals.FutureCancelToken.checkCanceled(FutureCancelToken.scala:29)
+	at scala.meta.internal.pc.CompilerAccess.onCompilerJobQueue$$anonfun$1(CompilerAccess.scala:195)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:152)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+	at java.base/java.lang.Thread.run(Thread.java:832)
+Exception in thread "pool-3-thread-19" java.lang.InterruptedException
+	at scala.meta.internal.metals.FutureCancelToken.checkCanceled(FutureCancelToken.scala:29)
+	at scala.meta.internal.pc.CompilerAccess.onCompilerJobQueue$$anonfun$1(CompilerAccess.scala:195)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:152)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+	at java.base/java.lang.Thread.run(Thread.java:832)
+Exception in thread "pool-3-thread-20" java.lang.InterruptedException
+	at scala.meta.internal.metals.FutureCancelToken.checkCanceled(FutureCancelToken.scala:29)
+	at scala.meta.internal.pc.CompilerAccess.onCompilerJobQueue$$anonfun$1(CompilerAccess.scala:195)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:152)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+	at java.base/java.lang.Thread.run(Thread.java:832)
+2022.11.25 12:14:35 WARN  no build target for: D:\Sunway\Sem 8\Distributed Systems\group assignment\blackjack\src\main\scala\model\BlackjackGame.scala
+Nov 25, 2022 12:14:36 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 6495
+Exception in thread "pool-3-thread-21" java.lang.InterruptedException
+	at scala.meta.internal.metals.FutureCancelToken.checkCanceled(FutureCancelToken.scala:29)
+	at scala.meta.internal.pc.CompilerAccess.onCompilerJobQueue$$anonfun$1(CompilerAccess.scala:195)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:152)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+	at java.base/java.lang.Thread.run(Thread.java:832)
+2022.11.25 12:14:45 WARN  no build target for: D:\Sunway\Sem 8\Distributed Systems\group assignment\blackjack\src\main\scala\model\BlackjackGame.scala
+2022.11.25 12:14:57 WARN  no build target for: D:\Sunway\Sem 8\Distributed Systems\group assignment\blackjack\src\main\scala\model\BlackjackGame.scala
+2022.11.25 12:14:57 WARN  no build target for: D:\Sunway\Sem 8\Distributed Systems\group assignment\blackjack\src\main\scala\model\BlackjackGame.scala
+2022.11.25 12:15:03 WARN  no build target for: D:\Sunway\Sem 8\Distributed Systems\group assignment\blackjack\src\main\scala\model\BlackjackGame.scala
+2022.11.25 12:15:19 WARN  no build target for: D:\Sunway\Sem 8\Distributed Systems\group assignment\blackjack\src\main\scala\model\BlackjackGame.scala
+2022.11.25 12:15:22 WARN  no build target for: D:\Sunway\Sem 8\Distributed Systems\group assignment\blackjack\src\main\scala\model\BlackjackGame.scala
