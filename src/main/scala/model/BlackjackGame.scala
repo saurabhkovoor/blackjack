@@ -83,29 +83,45 @@ class BlackJackGame(val isHost: Boolean, val tableList: ListBuffer[User], val cu
       return null
     }
   }
-  def playerConfirmBet(user: User): Unit = {
-    getPlayer(user).get.betConfirmed = true
 
-    // Check all player's bet confirmed status
-    var allConfirmedBetCheck = true
-    for (player <- roomList) {
-      if (!getPlayer(player).get.betConfirmed) {
-        allConfirmedBetCheck = false
-      }
-    }
-    allPlayersConfirmedBet.value = allConfirmedBetCheck
-  }
   def placeBet(user: User): Unit = {
     getPlayer(user).get.betPlaced = true
 
     // Check all player's bet confirmed status - p
-    var allPlayersConfirmedBets = true
-    for (player <- roomList) {
-      if (!getPlayer(player).get.betConfirmed) {
-        allConfirmedBetCheck = false
+    var allBetsPlaced = true
+    for (p <- tableList) {
+      if (!getPlayer(p).get.betConfirmed) {
+        allBetsPlaced = false
       }
     }
-    allPlayersConfirmedBet.value = allConfirmedBetCheck
   }
+  def dealCards: ListBuffer[PokerCardHolderInfo] = {
+    val PokerCardHolderInfoList = new ListBuffer[PokerCardHolderInfo]() //isPlayer, User, Card, cardPosition
+    var tempCard = dummyCard
 
+    // First card for players
+    for (u <- roomList) {
+      tempCard = housedealer.takeCard
+      getPlayer(u).get.addCardToHand(tempCard)
+      PokerCardHolderInfoList += PokerCardHolderInfo(isPlayer = true, user, tempCard, 1)
+    }
+    // First card for dealer, hidden
+    tempCard = dealer.getCard
+    dealer.addToHand(tempCard)
+    PokerCardHolderInfoList += PokerCardHolderInfo(isPlayer = false, localPlayer, dummyCard, 1)
+
+    // Second card for players
+    for (user <- roomList) {
+      tempCard = dealer.getCard
+      getPlayer(user).get.addToHand(tempCard)
+      PokerCardHolderInfoList += PokerCardHolderInfo(isPlayer = true, user, tempCard, 2)
+    }
+    // Second card for dealer, visible
+    tempCard = dealer.getCard
+    dealer.addToHand(tempCard)
+    PokerCardHolderInfoList += PokerCardHolderInfo(isPlayer = false, localPlayer, tempCard, 2)
+
+    return PokerCardHolderInfoList
+  }
+  
 }
