@@ -11,19 +11,18 @@ class HouseDealer {
 
   // function to create and generate shuffled deck
   def shuffleDeck(): Unit = {
-
     // generating all possible combinations of values-suits to create cards of a deck
     for (s <- suits) {
       for (v <- values) {
         // adding the unique created poker card to the deck 
-        pokerCardDeck += PokerCard(v, s)
+        pokerCardDeck += new PokerCard(v, s)
       }
     }
     // shuffling the deck of cards so the positioning is random
     pokerCardDeck = Random.shuffle(pokerCardDeck)
   }
 
-  def takeCard: Card = {
+  def takeCard: PokerCard = {
     //generate new deck and shuffle if no cards available in current deck
     if (pokerCardDeck.isEmpty) {
       shuffleDeck()
@@ -34,7 +33,7 @@ class HouseDealer {
 
   // function to add a card to the dealer's hand
   def addCardToHand(pokerCard: PokerCard): Unit = {
-    cardsInHand = cardsInHand + pokerCard
+    cardsInHand += pokerCard
   }
 
   // function to clear the cards in hand 

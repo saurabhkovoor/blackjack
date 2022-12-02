@@ -41,10 +41,10 @@ java.lang.UnsupportedOperationException: empty.reduceRight
 2022.11.24 20:10:13 WARN  no build target for: D:\Sunway\Sem 8\Distributed Systems\group assignment\blackjack\build.sbt
 2022.11.24 20:38:08 WARN  no build target for: D:\Sunway\Sem 8\Distributed Systems\group assignment\blackjack\src\main\scala\protocol\Standard.scala
 2022.11.24 20:38:14 WARN  no build target for: D:\Sunway\Sem 8\Distributed Systems\group assignment\blackjack\src\main\scala\protocol\Standard.scala
-2022.11.24 20:39:31 WARN  no build target for: D:\Sunway\Sem 8\Distributed Systems\group assignment\blackjack\src\main\scala\view\BlackjackTableController.scala
+2022.11.24 20:39:31 WARN  no build target for: D:\Sunway\Sem 8\Distributed Systems\group assignment\blackjack\src\main\scala\view\view.BlackjackTableController.scala
 2022.11.24 20:39:52 WARN  no build target for: D:\Sunway\Sem 8\Distributed Systems\group assignment\blackjack\src\main\scala\view\GameLobbyController.scala
-2022.11.24 20:40:16 WARN  no build target for: D:\Sunway\Sem 8\Distributed Systems\group assignment\blackjack\src\main\scala\view\MenuController.scala
-2022.11.24 20:41:20 WARN  no build target for: D:\Sunway\Sem 8\Distributed Systems\group assignment\blackjack\src\main\scala\view\BlackjackTableController.scala
+2022.11.24 20:40:16 WARN  no build target for: D:\Sunway\Sem 8\Distributed Systems\group assignment\blackjack\src\main\scala\view\view.MenuController.scala
+2022.11.24 20:41:20 WARN  no build target for: D:\Sunway\Sem 8\Distributed Systems\group assignment\blackjack\src\main\scala\view\view.BlackjackTableController.scala
 2022.11.24 20:41:56 WARN  no build target for: D:\Sunway\Sem 8\Distributed Systems\group assignment\blackjack\src\main\scala\model\Card.scala
 2022.11.24 20:42:03 WARN  no build target for: D:\Sunway\Sem 8\Distributed Systems\group assignment\blackjack\src\main\scala\model\Card.scala
 2022.11.24 20:45:11 WARN  no build target for: D:\Sunway\Sem 8\Distributed Systems\group assignment\blackjack\src\main\scala\model\Card.scala
@@ -52,11 +52,11 @@ java.lang.UnsupportedOperationException: empty.reduceRight
 2022.11.24 20:53:02 WARN  no build target for: D:\Sunway\Sem 8\Distributed Systems\group assignment\blackjack\src\main\scala\network\Client.scala
 2022.11.24 20:53:12 WARN  no build target for: D:\Sunway\Sem 8\Distributed Systems\group assignment\blackjack\src\main\scala\network\GameClient.scala
 2022.11.24 20:53:19 WARN  no build target for: D:\Sunway\Sem 8\Distributed Systems\group assignment\blackjack\src\main\scala\network\GameClient.scala
-2022.11.24 20:53:25 WARN  no build target for: D:\Sunway\Sem 8\Distributed Systems\group assignment\blackjack\src\main\scala\view\MenuController.scala
-2022.11.24 20:55:39 WARN  no build target for: D:\Sunway\Sem 8\Distributed Systems\group assignment\blackjack\src\main\scala\view\MenuController.scala
+2022.11.24 20:53:25 WARN  no build target for: D:\Sunway\Sem 8\Distributed Systems\group assignment\blackjack\src\main\scala\view\view.MenuController.scala
+2022.11.24 20:55:39 WARN  no build target for: D:\Sunway\Sem 8\Distributed Systems\group assignment\blackjack\src\main\scala\view\view.MenuController.scala
 Nov 24, 2022 8:55:48 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
 WARNING: Unmatched cancel notification for request id 272
-2022.11.24 20:55:48 WARN  no build target for: D:\Sunway\Sem 8\Distributed Systems\group assignment\blackjack\src\main\scala\view\MenuController.scala
+2022.11.24 20:55:48 WARN  no build target for: D:\Sunway\Sem 8\Distributed Systems\group assignment\blackjack\src\main\scala\view\view.MenuController.scala
 2022.11.24 21:05:17 WARN  no build target for: D:\Sunway\Sem 8\Distributed Systems\group assignment\blackjack\src\main\scala\model\Card.scala
 2022.11.24 21:05:27 WARN  no build target for: D:\Sunway\Sem 8\Distributed Systems\group assignment\blackjack\src\main\scala\model\PokerCard.scala
 Nov 24, 2022 10:33:13 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation

@@ -15,7 +15,7 @@ class Player(val user: User) {
   
   // function to add a card to the dealer's hand
   def addCardToHand(pokerCard: PokerCard): Unit = {
-    cardsInHand = cardsInHand + pokerCard
+    cardsInHand += pokerCard
   }
 
   // function to determine the size of the bet to be placed, 

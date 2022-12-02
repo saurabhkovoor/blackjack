@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.Group?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="720.0" prefWidth="1280.0" styleClass="boardbackground" stylesheets="@../style.css" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="blackjack.view.BlackjackTableController">
+   <children>
+      <Button id="buttonLeave" layoutX="1213.0" layoutY="16.0" mnemonicParsing="false" onAction="#leaveGame" text="Leave" AnchorPane.rightAnchor="30.0" AnchorPane.topAnchor="16.0" />
+      <Group id="opponent1" layoutX="48.0" layoutY="410.0" scaleX="0.8" scaleY="0.8" scaleZ="0.8">
+         <children>
+            <ImageView id="opponentcard1" fx:id="player1card1" fitHeight="175.0" fitWidth="205.0" layoutY="42.0" pickOnBounds="true" preserveRatio="true" styleClass="card">
+               <image>
+                  <Image url="@../img/cards/black_joker.png" />
+               </image>
+            </ImageView>
+            <ImageView id="opponentcard2" fx:id="player1card2" fitHeight="175.0" fitWidth="132.0" layoutX="23.0" layoutY="17.0" pickOnBounds="true" preserveRatio="true" styleClass="card">
+               <image>
+                  <Image url="@../img/cards/king_of_spades2.png" />
+               </image>
+            </ImageView>
+            <ImageView id="opponentcard3" fx:id="player1card3" fitHeight="175.0" fitWidth="132.0" layoutX="46.0" layoutY="-8.0" pickOnBounds="true" preserveRatio="true" styleClass="card">
+               <image>
+                  <Image url="@../img/cards/queen_of_spades2.png" />
+               </image>
+            </ImageView>
+            <ImageView id="opponentcard4" fx:id="player1card4" fitHeight="175.0" fitWidth="205.0" layoutX="68.0" layoutY="-32.0" pickOnBounds="true" preserveRatio="true" styleClass="card">
+               <image>
+                  <Image url="@../img/cards/ace_of_spades.png" />
+               </image>
+            </ImageView>
+            <ImageView id="opponentcard5" fx:id="player1card5" fitHeight="175.0" fitWidth="205.0" layoutX="91.0" layoutY="-56.0" pickOnBounds="true" preserveRatio="true" styleClass="card">
+               <image>
+                  <Image url="@../img/cards/2_of_spades.png" />
+               </image>
+            </ImageView>
+         </children>
+      </Group>
+      <Button id="playerButtonHit" fx:id="hitBtn" layoutX="927.0" layoutY="577.0" mnemonicParsing="false" onAction="#playerHit" prefWidth="70.0" text="Hit" />
+      <Button id="playerButtonStand" fx:id="standBtn" layoutX="927.0" layoutY="607.0" mnemonicParsing="false" onAction="#playerStand" prefWidth="70.0" text="Stand" />
+      <Button id="playerButtonIncrease" fx:id="increaseBetBtn" layoutX="870.0" layoutY="616.0" mnemonicParsing="false" onAction="#increaseBet" prefHeight="20.0" prefWidth="20.0" text="+" />
+      <Button id="playerButtonDecrease" fx:id="decreaseBetBtn" layoutX="845.0" layoutY="616.0" mnemonicParsing="false" onAction="#decreaseBet" prefHeight="20.0" prefWidth="20.0" text="-" />
+      <Text id="playerCurrentBalance" fx:id="player2BalLabel" layoutX="424.0" layoutY="655.0" strokeType="OUTSIDE" strokeWidth="0.0" styleClass="boardtext" text="Balance:" />
+      <Text id="playerCurrentBalanceValue" fx:id="player2Bal" layoutX="497.0" layoutY="655.0" strokeType="OUTSIDE" strokeWidth="0.0" styleClass="boardtext" text="1000" wrappingWidth="84.34375" />
+      <Text id="playerCurrentBetAmount" fx:id="player3BetLabel" layoutX="753.0" layoutY="633.0" strokeType="OUTSIDE" strokeWidth="0.0" styleClass="boardtext" text="Bet:" />
+      <Text id="playerBetValue" fx:id="player2Bet" layoutX="497.0" layoutY="633.0" strokeType="OUTSIDE" strokeWidth="0.0" styleClass="boardtext" text="50" wrappingWidth="84.34375" />
+      <Group id="opponent1" layoutX="530.0" layoutY="50.0">
+         <children>
+            <ImageView id="opponentcard1" fx:id="dealercard1" fitHeight="175.0" fitWidth="205.0" layoutX="5.0" layoutY="-40.0" pickOnBounds="true" preserveRatio="true" styleClass="card">
+               <image>
+                  <Image url="@../img/cards/black_joker.png" />
+               </image>
+            </ImageView>
+            <ImageView id="opponentcard2" fx:id="dealercard2" fitHeight="175.0" fitWidth="132.0" layoutX="30.0" layoutY="-40.0" pickOnBounds="true" preserveRatio="true" styleClass="card">
+               <image>
+                  <Image url="@../img/cards/king_of_spades2.png" />
+               </image>
+            </ImageView>
+            <ImageView id="opponentcard3" fx:id="dealercard3" fitHeight="175.0" fitWidth="132.0" layoutX="55.0" layoutY="-40.0" pickOnBounds="true" preserveRatio="true" styleClass="card">
+               <image>
+                  <Image url="@../img/cards/queen_of_spades2.png" />
+               </image>
+            </ImageView>
+            <ImageView id="opponentcard4" fx:id="dealercard4" fitHeight="175.0" fitWidth="205.0" layoutX="79.0" layoutY="-40.0" pickOnBounds="true" preserveRatio="true" styleClass="card">
+               <image>
+                  <Image url="@../img/cards/ace_of_spades.png" />
+               </image>
+            </ImageView>
+            <ImageView id="opponentcard5" fx:id="dealercard" fitHeight="175.0" fitWidth="205.0" layoutX="103.0" layoutY="-40.0" pickOnBounds="true" preserveRatio="true" styleClass="card">
+               <image>
+                  <Image url="@../img/cards/2_of_spades.png" />
+               </image>
+            </ImageView>
+         </children>
+      </Group>
+      <Text id="opponent1CurrentBalance" fx:id="player1BalLabel" layoutX="83.0" layoutY="654.0" strokeType="OUTSIDE" strokeWidth="0.0" styleClass="boardtext" text="Balance:" />
+      <Text id="opponent1CurrentBalanceValue" fx:id="player1Bal" layoutX="152.0" layoutY="654.0" strokeType="OUTSIDE" strokeWidth="0.0" styleClass="boardtext" text="1000" wrappingWidth="84.34375" />
+      <Text id="opponent2CurrentBalance" fx:id="player4BalLabel" layoutX="1036.0" layoutY="654.0" strokeType="OUTSIDE" strokeWidth="0.0" styleClass="boardtext" text="Balance:" />
+      <Text id="playerCurrentBetAmount" fx:id="player1BetLabel" layoutX="110.0" layoutY="634.0" strokeType="OUTSIDE" strokeWidth="0.0" styleClass="boardtext" text="Bet:" />
+      <Text id="playerBetValue" fx:id="player1Bet" layoutX="152.0" layoutY="634.0" strokeType="OUTSIDE" strokeWidth="0.0" styleClass="boardtext" text="50" wrappingWidth="84.34375" />
+      <Text id="playerCurrentBetAmount" fx:id="player4BetLabel" layoutX="1063.0" layoutY="632.0" strokeType="OUTSIDE" strokeWidth="0.0" styleClass="boardtext" text="Bet:" />
+      <Text id="playerBetValue" fx:id="player4Bet" layoutX="1121.0" layoutY="633.0" strokeType="OUTSIDE" strokeWidth="0.0" styleClass="boardtext" text="50" wrappingWidth="84.34375" />
+      <Button id="buttonLeave" fx:id="nextRoundBtn" layoutX="780.0" layoutY="16.0" mnemonicParsing="false" onAction="#hostStartNextRound" text="Next Round" />
+      <Text id="opponent2CurrentBalanceValue" fx:id="player4Bal" layoutX="1121.0" layoutY="654.0" strokeType="OUTSIDE" strokeWidth="0.0" styleClass="boardtext" text="1000" wrappingWidth="84.34375" />
+      <ImageView fx:id="playerConfetti" fitHeight="150.0" fitWidth="200.0" layoutX="539.0" layoutY="581.0" pickOnBounds="true" preserveRatio="true" visible="false">
+         <image>
+            <Image url="@../img/confetti.gif" />
+         </image>
+      </ImageView>
+      <Button id="playerButtonDecrease" fx:id="confirmBetBtn" layoutX="927.0" layoutY="637.0" mnemonicParsing="false" onAction="#confirmBet" prefWidth="70.0" text="Confirm" />
+      <Text id="opponent1CurrentBalance" fx:id="player3name" layoutX="667.0" layoutY="327.0" strokeType="OUTSIDE" strokeWidth="0.0" styleClass="boardtext" text="Player name" textAlignment="CENTER" wrappingWidth="270.4560546875" />
+      <Text id="opponent1CurrentBalance" fx:id="player1name" layoutX="17.0" layoutY="328.0" strokeType="OUTSIDE" strokeWidth="0.0" styleClass="boardtext" text="Empty slot" textAlignment="CENTER" wrappingWidth="270.4560546875" />
+      <Text id="opponent1CurrentBalance" fx:id="player4name" layoutX="995.0" layoutY="327.0" strokeType="OUTSIDE" strokeWidth="0.0" styleClass="boardtext" text="Empty slot" textAlignment="CENTER" wrappingWidth="270.4560546875">
+         <font>
+            <Font name="Segoe UI" size="12.0" />
+         </font></Text>
+      <Text id="opponent1CurrentBalance" fx:id="player2name" layoutX="362.0" layoutY="326.0" strokeType="OUTSIDE" strokeWidth="0.0" styleClass="boardtext" text="Empty slot" textAlignment="CENTER" wrappingWidth="270.4560546875" />
+      <Group id="opponent1" layoutX="370.0" layoutY="410.0" scaleX="0.8" scaleY="0.8" scaleZ="0.8">
+         <children>
+            <ImageView id="opponentcard1" fx:id="player2card1" fitHeight="175.0" fitWidth="205.0" layoutY="42.0" pickOnBounds="true" preserveRatio="true" styleClass="card">
+               <image>
+                  <Image url="@../img/cards/black_joker.png" />
+               </image>
+            </ImageView>
+            <ImageView id="opponentcard2" fx:id="player2card2" fitHeight="175.0" fitWidth="132.0" layoutX="23.0" layoutY="17.0" pickOnBounds="true" preserveRatio="true" styleClass="card">
+               <image>
+                  <Image url="@../img/cards/king_of_spades2.png" />
+               </image>
+            </ImageView>
+            <ImageView id="opponentcard3" fx:id="player2card3" fitHeight="175.0" fitWidth="132.0" layoutX="46.0" layoutY="-8.0" pickOnBounds="true" preserveRatio="true" styleClass="card">
+               <image>
+                  <Image url="@../img/cards/queen_of_spades2.png" />
+               </image>
+            </ImageView>
+            <ImageView id="opponentcard4" fx:id="player2card4" fitHeight="175.0" fitWidth="205.0" layoutX="68.0" layoutY="-32.0" pickOnBounds="true" preserveRatio="true" styleClass="card">
+               <image>
+                  <Image url="@../img/cards/ace_of_spades.png" />
+               </image>
+            </ImageView>
+            <ImageView id="opponentcard5" fx:id="player2card5" fitHeight="175.0" fitWidth="205.0" layoutX="91.0" layoutY="-56.0" pickOnBounds="true" preserveRatio="true" styleClass="card">
+               <image>
+                  <Image url="@../img/cards/2_of_spades.png" />
+               </image>
+            </ImageView>
+         </children>
+      </Group>
+      <Group id="opponent1" layoutX="690.0" layoutY="410.0" scaleX="0.8" scaleY="0.8" scaleZ="0.8">
+         <children>
+            <ImageView id="opponentcard1" fx:id="player3card1" fitHeight="175.0" fitWidth="205.0" layoutY="42.0" pickOnBounds="true" preserveRatio="true" styleClass="card">
+               <image>
+                  <Image url="@../img/cards/black_joker.png" />
+               </image>
+            </ImageView>
+            <ImageView id="opponentcard2" fx:id="player3card2" fitHeight="175.0" fitWidth="132.0" layoutX="23.0" layoutY="17.0" pickOnBounds="true" preserveRatio="true" styleClass="card">
+               <image>
+                  <Image url="@../img/cards/king_of_spades2.png" />
+               </image>
+            </ImageView>
+            <ImageView id="opponentcard3" fx:id="player3card3" fitHeight="175.0" fitWidth="132.0" layoutX="46.0" layoutY="-8.0" pickOnBounds="true" preserveRatio="true" styleClass="card">
+               <image>
+                  <Image url="@../img/cards/queen_of_spades2.png" />
+               </image>
+            </ImageView>
+            <ImageView id="opponentcard4" fx:id="player3card4" fitHeight="175.0" fitWidth="205.0" layoutX="68.0" layoutY="-32.0" pickOnBounds="true" preserveRatio="true" styleClass="card">
+               <image>
+                  <Image url="@../img/cards/ace_of_spades.png" />
+               </image>
+            </ImageView>
+            <ImageView id="opponentcard5" fx:id="player3card5" fitHeight="175.0" fitWidth="205.0" layoutX="91.0" layoutY="-56.0" pickOnBounds="true" preserveRatio="true" styleClass="card">
+               <image>
+                  <Image url="@../img/cards/2_of_spades.png" />
+               </image>
+            </ImageView>
+         </children>
+      </Group>
+      <Group id="opponent1" layoutX="1015.0" layoutY="410.0" scaleX="0.8" scaleY="0.8" scaleZ="0.8">
+         <children>
+            <ImageView id="opponentcard1" fx:id="player4card1" fitHeight="175.0" fitWidth="205.0" layoutY="42.0" pickOnBounds="true" preserveRatio="true" styleClass="card">
+               <image>
+                  <Image url="@../img/cards/black_joker.png" />
+               </image>
+            </ImageView>
+            <ImageView id="opponentcard2" fx:id="player4card2" fitHeight="175.0" fitWidth="132.0" layoutX="23.0" layoutY="17.0" pickOnBounds="true" preserveRatio="true" styleClass="card">
+               <image>
+                  <Image url="@../img/cards/king_of_spades2.png" />
+               </image>
+            </ImageView>
+            <ImageView id="opponentcard3" fx:id="player4card3" fitHeight="175.0" fitWidth="132.0" layoutX="46.0" layoutY="-8.0" pickOnBounds="true" preserveRatio="true" styleClass="card">
+               <image>
+                  <Image url="@../img/cards/queen_of_spades2.png" />
+               </image>
+            </ImageView>
+            <ImageView id="opponentcard4" fx:id="player4card4" fitHeight="175.0" fitWidth="205.0" layoutX="68.0" layoutY="-32.0" pickOnBounds="true" preserveRatio="true" styleClass="card">
+               <image>
+                  <Image url="@../img/cards/ace_of_spades.png" />
+               </image>
+            </ImageView>
+            <ImageView id="opponentcard5" fx:id="player4card5" fitHeight="175.0" fitWidth="205.0" layoutX="91.0" layoutY="-56.0" pickOnBounds="true" preserveRatio="true" styleClass="card">
+               <image>
+                  <Image url="@../img/cards/2_of_spades.png" />
+               </image>
+            </ImageView>
+         </children>
+      </Group>
+      <Text id="playerCurrentBetAmount" fx:id="player2BetLabel" layoutX="451.0" layoutY="633.0" strokeType="OUTSIDE" strokeWidth="0.0" styleClass="boardtext" text="Bet:" />
+      <Text id="opponent2CurrentBalance" fx:id="player3BalLabel" layoutX="726.0" layoutY="655.0" strokeType="OUTSIDE" strokeWidth="0.0" styleClass="boardtext" text="Balance:" />
+      <Text id="playerBetValue" fx:id="player3Bet" layoutX="802.0" layoutY="633.0" strokeType="OUTSIDE" strokeWidth="0.0" styleClass="boardtext" text="50" wrappingWidth="84.34375" />
+      <Text id="opponent2CurrentBalanceValue" fx:id="player3Bal" layoutX="802.0" layoutY="655.0" strokeType="OUTSIDE" strokeWidth="0.0" styleClass="boardtext" text="1000" wrappingWidth="84.34375" />
+   </children>
+</AnchorPane>

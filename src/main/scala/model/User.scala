@@ -1,10 +1,11 @@
 package model
-import protocol.JsonSerializable
 import akka.actor.typed.ActorRef
-import network.Client
+import network.GameClient
+import protocol.JsonSerializable
 
-case class User(name: String, ref: ActorRef[Client.Command]) extends JsonSerializable {
+case class User(name: String, ref: ActorRef[GameClient.Command]) extends JsonSerializable {
   override def toString: String = {
     name
   }
+
 }

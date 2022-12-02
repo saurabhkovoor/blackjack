@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Text?>
+<?import javafx.scene.text.TextFlow?>
+
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" styleClass="lobbybackground" stylesheets="@../style.css" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Button fx:id="BackBtn" layoutX="25.0" layoutY="25.0" mnemonicParsing="false" onAction="#returntoLobby" text="Back" />
+      <Text layoutX="243.0" layoutY="59.0" strokeType="OUTSIDE" strokeWidth="0.0" styleClass="desc_text" text="How to Play Blackjack" />
+      <TextFlow layoutX="69.0" layoutY="87.0" prefHeight="250.0" prefWidth="500.0">
+         <children>
+            <Text strokeType="OUTSIDE" strokeWidth="0.0" styleClass="desc_text" text="Place a bet in the betting areas marked on the table. You and fellow players are dealt two cards each whilst the dealer is dealt one face up. If your first 2 cards add up to 21 (an Ace and a card valued 10), that’s Blackjack! If they have any other total, decide whether you wish to ‘hit’ or ‘stand’. You can continue to draw cards until you are happy with your hand.Once all players have taken their turn the dealer draws another card for their hand. They must draw until they reach 17 or more.Once all cards are drawn, whoever has a total closer to 21 than the dealer wins. If player’s hand and dealer’s hand have an equal value, it’s a tie. " wrappingWidth="592.185546875" />
+         </children>
+      </TextFlow>
+   </children>
+</AnchorPane>
